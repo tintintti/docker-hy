@@ -1,0 +1,21 @@
+tintti@L1700:~$ docker run --rm -it ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+Input website:
+control+p, control+q
+tintti@L1700:~$ docker ps
+CONTAINER ID   IMAGE     COMMAND                   CREATED          STATUS          PORTS     NAMES
+3f9cdaa9da7f   ubuntu    "sh -c 'echo \"Input …"   27 seconds ago   Up 26 seconds             sharp_jackson
+tintti@L1700:~$ docker exec -it 3f bash
+root@3f9cdaa9da7f:/# apt-get update
+root@3f9cdaa9da7f:/# apt-get install curl -y
+root@3f9cdaa9da7f:/# exit
+tintti@L1700:~$ docker attach 3f
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://www.helsinki.fi/">here</a>.</p>
+</body></html>
+

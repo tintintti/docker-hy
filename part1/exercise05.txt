@@ -1,0 +1,22 @@
+Script started on 2022-04-12 10:46:11+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="138" LINES="38"]
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ doe[Kcker run -d devopsdockeruh/simple-web-service:alpine
+359e8af13fc13edc2052840a7207635fcdec9990494486164e8f914011ad5d46
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker exec -it 35 sh
+/usr/src/app # [6n/usr/src/app # [Jtail -f ./t/usr/src/app # tail -f ./text.log [J
+2022-04-12 09:46:53 +0000 UTC
+2022-04-12 09:46:55 +0000 UTC
+2022-04-12 09:46:57 +0000 UTC
+2022-04-12 09:46:59 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-04-12 09:47:01 +0000 UTC
+2022-04-12 09:47:03 +0000 UTC
+2022-04-12 09:47:05 +0000 UTC
+2022-04-12 09:47:07 +0000 UTC
+2022-04-12 09:47:09 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-04-12 09:47:11 +0000 UTC
+^C
+/usr/src/app # [6n
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ exit
+
+Script done on 2022-04-12 10:47:16+01:00 [COMMAND_EXIT_CODE="130"]

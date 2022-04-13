@@ -1,0 +1,19 @@
+Script started on 2022-04-07 15:50:48+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="152" LINES="36"]
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker container run -d nginx
+05c74886eb92262cc52084848cef3364eb3cb1f4b897e0dc4faaddfbe20fe695
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker container run -d nginx
+83df5d5b9b90a31d93933a859ab3ecdfaf5143d8a027804f412d3952f84f5ce8
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker container run -d nginx
+9a023c94719d1f564524d7b9806717dbc13c3971bc069fe9ae4cb66ca90a8a24
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker container stop 05
+05
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker container stop 05[K[K83
+83
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                     PORTS     NAMES
+9a023c94719d   nginx     "/docker-entrypoint.…"   18 seconds ago   Up 17 seconds              80/tcp    dreamy_hertz
+83df5d5b9b90   nginx     "/docker-entrypoint.…"   19 seconds ago   Exited (0) 3 seconds ago             kind_sanderson
+05c74886eb92   nginx     "/docker-entrypoint.…"   21 seconds ago   Exited (0) 8 seconds ago             busy_chatelet
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ exit
+
+Script done on 2022-04-07 15:51:28+03:00 [COMMAND_EXIT_CODE="0"]

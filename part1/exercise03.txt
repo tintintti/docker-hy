@@ -1,0 +1,25 @@
+Script started on 2022-04-07 16:39:07+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="158" LINES="27"]
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker ps -a[Kattach f4run -d --rm -it devopsdockeruh/simple-web-service:ubuntu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cattach f4[Krun -d --rm -it devopsdockeruh/simple-web-service:ubuntu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccontainer rm 44[Krun -d --rm -it devopsdockeruh/simple-web-service:ubuntu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cattach f4[Kps[K -a[Kdocker ps -a[Kattach f4run -d --rm -it devopsdockeruh/simple-web-service:ubuntu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccontainer rm 44[Krun -d --rm -it devopsdockeruh/simple-web-service:ubuntu[C[1P devopsdockeruh/simple-web-service:ubuntu[1P devopsdockeruh/simple-web-service:ubuntu[1P devopsdockeruh/simple-web-service:ubuntu[1Pdevopsdockeruh/simple-web-service:ubuntu[1P devopsdockeruh/simple-web-service:ubuntu[1P devopsdockeruh/simple-web-service:ubuntu[1P devopsdockeruh/simple-web-service:ubuntu[1P devopsdockeruh/simple-web-service:ubuntu[1Pdevopsdockeruh/simple-web-service:ubuntu
+eb17cd0ee947687cf7b1a1fb5b25ae2315be63c7ba8f018f62ea56f4c474a97a
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker exec -ir [K[Kt eb bash
+]0;root@eb17cd0ee947: /usr/src/approot@eb17cd0ee947:/usr/src/app# [K]0;root@eb17cd0ee947: /usr/src/approot@eb17cd0ee947:/usr/src/app# tail -f ./text.log
+2022-04-07 13:39:30 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-04-07 13:39:32 +0000 UTC
+2022-04-07 13:39:34 +0000 UTC
+2022-04-07 13:39:36 +0000 UTC
+2022-04-07 13:39:38 +0000 UTC
+2022-04-07 13:39:40 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2022-04-07 13:39:42 +0000 UTC
+2022-04-07 13:39:44 +0000 UTC
+2022-04-07 13:39:46 +0000 UTC
+^C
+]0;root@eb17cd0ee947: /usr/src/approot@eb17cd0ee947:/usr/src/app# exit
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker stop eb[1@c[1@o[1@n[1@t[1@a[1@i[1@n[1@e[1@r[1@ 
+eb
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker container stop eb[1P eb[1P eb[1P eb[1P ebr ebm eb
+eb
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ exit
+
+Script done on 2022-04-07 16:40:07+03:00 [COMMAND_EXIT_CODE="0"]

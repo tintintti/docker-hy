@@ -1,0 +1,32 @@
+Script started on 2022-04-07 15:54:26+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="152" LINES="36"]
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ [K]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker ps -as
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                     PORTS     NAMES            SIZE
+9a023c94719d   nginx     "/docker-entrypoint.…"   3 minutes ago   Up 3 minutes               80/tcp    dreamy_hertz     1.09kB (virtual 142MB)
+83df5d5b9b90   nginx     "/docker-entrypoint.…"   3 minutes ago   Exited (0) 3 minutes ago             kind_sanderson   1.09kB (virtual 142MB)
+05c74886eb92   nginx     "/docker-entrypoint.…"   3 minutes ago   Exited (0) 3 minutes ago             busy_chatelet    1.09kB (virtual 142MB)
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker images
+REPOSITORY   TAG       IMAGE ID       CREATED      SIZE
+nginx        latest    12766a6745ee   8 days ago   142MB
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker conain[K[K[Kr[Ktainer stop 9a
+9a
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker o[Kcontainer rm 9a 83 05
+9a
+83
+05
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker image rm nginx:latest 
+Untagged: nginx:latest
+Untagged: nginx@sha256:2275af0f20d71b293916f1958f8497f987b8d8fd8113df54635f2a5915002bf1
+Deleted: sha256:12766a6745eea133de9fdcd03ff720fa971fdaf21113d4bc72b417c123b15619
+Deleted: sha256:3ea962f6f388096ab9798790d363fc6f9c779c924a5eddf5c699d8da080114f7
+Deleted: sha256:091a2aef7242e42505b69f1ad027d6a442cfce2403e260ac914f0fd6cc2d275f
+Deleted: sha256:4e72a31f1cd6fd655cc0826c91e886967b6e965e13ac21f31f9f66c27a3b7732
+Deleted: sha256:e3d1cdf9772a260b3e81a22c1940d63ac45dfe67720f78f00ca73834d9498934
+Deleted: sha256:af40da71a8618ea9cbcdc333d5e60bd5b6df820f0d07a55f7c9a1c21fd930095
+Deleted: sha256:608f3a074261105f129d707e4d9ad3d41b5baa94887f092b7c2857f7274a2fce
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+]0;tintti@L1700: ~/opiskelu/docker/part1[01;32mtintti@L1700[00m:[01;34m~/opiskelu/docker/part1[00m$ exit
+
+Script done on 2022-04-07 15:55:56+03:00 [COMMAND_EXIT_CODE="0"]
