@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  backend:
+    image: example-backend
+    ports:
+      - 8080:8080
+    container_name: webapp-backend
+    environment:
+      - REQUEST_ORIGIN=http://localhost:5000
+      - REDIS_HOST=webapp-redis
+      - POSTGRES_HOST=db-postgres
+      - POSTGRES_PASSWORD=example
+
+  frontend:
+    image: example-frontend
+    ports:
+      - 5000:5000
+    container_name: webapp-frontend
+    environment:
+      - REACT_APP_BACKEND_URL=http://localhost:8080
+
+  redis:
+    image: redis
+    container_name: webapp-redis
+
+  db:
+    image: postgres:14.2
+    restart: unless-stopped
+    environment:
+      - POSTGRES_PASSWORD=example
+    container_name: db-postgres
