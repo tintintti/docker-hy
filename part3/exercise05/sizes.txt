@@ -1,0 +1,7 @@
+Starting point:
+example-backend   1.07GB
+example-frontend  1.22GB
+
+alpine:
+example-backend  447MB
+example-frontend 432MB

@@ -1,0 +1,5 @@
+Starting point:
+example-backend   1.07GB
+example-frontend  1.22GB
+
+Didn't really change after the changes as I was using the node & golang images as the base.
